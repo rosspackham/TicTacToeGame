@@ -8,6 +8,32 @@
 	justify-content: center;
 }
 
+.game-scores {
+	display: flex;
+	justify-content: center;
+}
+
+#player1 {
+	border: 2px solid #000;
+	font-size: 20px;
+	padding: 20px 40px;
+}
+
+#player2 {
+	border: 2px solid #000;
+	font-size: 20px;
+	padding: 20px 40px;
+}
+
+#score1 {
+	border: 2px solid #000;
+	width: 100px;
+}
+
+#score2 {
+	border: 2px solid #000;
+	width: 100px;
+}
 
 .board-container {
 	width: 100%;

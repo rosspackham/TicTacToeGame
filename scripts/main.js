@@ -1,3 +1,35 @@
+
+// Game functions & workings
+let player1 = "";
+let player2 = "";
+let turn = "";
+
+function clicked(clickedId) {
+	
+	let clkId = document.getElementById(clickedId);
+	let clkIdval = document.getElementById(clickedId).innerHTML;
+
+	if (clkIdval === "") {
+		clkId = "X";
+		document.getElementById(clickedId).innerHTML="X";
+	}
+	else if (clkIdval === "X") {
+		clkId = "O";
+		document.getElementById(clickedId).innerHTML="O";
+	}
+	
+	else if (clkIdval === "O") {
+		clkId = "";
+		document.getElementById(clickedId).innerHTML="";
+	}
+	
+	
+}
+
+
+
+/*
+
 // Game workings
 
 //let btnSq1 = document.getElementById("btn-sq1");
@@ -60,26 +92,4 @@ let player2 = playerFactory('player2');
 //console.log(player1.name);
 //console.log(player2.name);
 
-// Game functions & workings
-
-function clicked(clickedId) {
-	
-	clkId = document.getElementById(clickedId);
-	clkIdval = document.getElementById(clickedId).innerHTML;
-
-	if (clkIdval === "") {
-		clkId = "X";
-		document.getElementById(clickedId).innerHTML="X";
-	}
-	else if (clkIdval === "X") {
-		clkId = "O";
-		document.getElementById(clickedId).innerHTML="O";
-	}
-	
-	else if (clkIdval === "O") {
-		clkId = "";
-		document.getElementById(clickedId).innerHTML="";
-	}
-	
-	
-}
+*/
