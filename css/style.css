@@ -1,0 +1,216 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+#game-title {
+	display: flex;
+	justify-content: center;
+}
+
+
+.board-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #d9e6f2;
+	border: 5px solid #000;
+	padding: 20px;
+}
+
+.game-board {
+		justify-content: center;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-areas: "square1 square2 square3"
+                         "square4 square5 square6"
+                         "square7 square8 square9";
+		padding: 25px;
+}
+
+h1 {
+		justify-content: center;
+		width: 100%;
+		padding: 50px;
+}
+
+#square1 {
+    grid-area: square1;
+    width: 100px;
+    height: 100px;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#square2 {
+    grid-area: square2;
+    width:100px;
+    height:100px;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#square3 {
+    grid-area: square3;
+    width:100px;
+    height:100px;
+    border-bottom: 2px solid #000;
+}
+
+#square4 {
+    grid-area: square4;
+    width:100px;
+    height:100px;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#square5 {
+    grid-area: square5;
+    width:100px;
+    height:100px;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#square6 {
+    grid-area: square6;
+    width:100px;
+    height:100px;
+    border-bottom: 2px solid #000;
+}
+
+#square7 {
+    grid-area: square7;
+    width:100px;
+    height:100px;
+    border-right: 2px solid #000;
+}
+
+#square8 {
+    grid-area: square8;
+    width:100px;
+    height:100px;
+    border-right: 2px solid #000;
+}
+
+#square9 {
+    grid-area: square9;
+    width:100px;
+    height:100px;
+}
+
+.game-buttons {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+}
+
+#btn-sq1 {
+	color: #fff;
+	text-align: center;
+	font-size: 80px;
+	width: 100px;
+	height: 100px;
+	border: 0px;
+}
+
+#btn-sq2 {
+	color: #fff;
+	text-align: center;
+	font-size: 80px;
+	width: 100px;
+	height: 100px;
+	border: 0px;
+}
+
+#btn-sq3 {
+	color: #fff;
+	text-align: center;
+	font-size: 80px;
+	width: 100px;
+	height: 100px;
+	border: 0px;
+}
+
+#btn-sq4 {
+	color: #fff;
+	text-align: center;
+	font-size: 80px;
+	width: 100px;
+	height: 100px;
+	border: 0px;
+}
+
+#btn-sq5 {
+	color: #fff;
+	text-align: center;
+	font-size: 80px;
+	width: 100px;
+	height: 100px;
+	border: 0px;
+}
+
+#btn-sq6 {
+	color: #fff;
+	text-align: center;
+	font-size: 80px;
+	width: 100px;
+	height: 100px;
+	border: 0px;
+}
+
+#btn-sq7 {
+	color: #fff;
+	text-align: center;
+	font-size: 80px;
+	width: 100px;
+	height: 100px;
+	border: 0px;
+}
+
+#btn-sq8 {
+	color: #fff;
+	text-align: center;
+	font-size: 80px;
+	width: 100px;
+	height: 100px;
+	border: 0px;
+}
+
+#btn-sq9 {
+	color: #fff;
+	text-align: center;
+	font-size: 80px;
+	width: 100px;
+	height: 100px;
+	border: 0px;
+}
+
+#btn-play {
+	color: #fff;
+	background-color: green;
+	text-align: center;
+	font-size: 18px;
+	width: 120px;
+	height: 60px;
+	border: solid 2px #000;
+	border-radius: 15px;
+	margin: 15px;
+}
+
+#btn-restart {
+	color: #fff;
+	background-color: red;
+	text-align: center;
+	font-size: 18px;
+	width: 120px;
+	height: 60px;
+	border: solid 2px #000;
+	border-radius: 15px;
+	margin: 15px;
+}
